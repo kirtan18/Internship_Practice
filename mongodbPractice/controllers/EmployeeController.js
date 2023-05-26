@@ -6,6 +6,7 @@ const index = (req, res, next) => {
         Employee.find((err, result) => {
             if (err) {
                 console.log(err);
+                return;
             }
             res.json(result);
         });
@@ -22,6 +23,7 @@ const show = (req, res, next) => {
         Employee.findById(employeeID, (err, result) => {
             if (err) {
                 console.log(err);
+                return;
             }
             console.log(result._id.toString());
             res.json(result);
