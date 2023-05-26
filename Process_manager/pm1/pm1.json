@@ -1,0 +1,17 @@
+
+{
+    "apps":[
+        {
+            "name":"FirstPM1",
+            "cwd":"C:/Users/ZTI/Desktop/Internship/Process_manager/pm1",
+            "script":"./app.js",
+            "watch":true,
+            "ignore_watch":["node_modules","public"],
+            "instance":1,
+            "exec_mode":"fork",
+            "env":{
+                "DB_NAME":"P1_IMPROVE"
+            }
+        }
+    ]
+}

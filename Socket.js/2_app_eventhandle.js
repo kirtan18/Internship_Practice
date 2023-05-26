@@ -27,4 +27,3 @@ io.on('connection', function(socket){
 
 http.listen(8000, function(){
    console.log('listening on localhost:8000');
-});
